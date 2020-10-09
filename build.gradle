@@ -5,10 +5,12 @@ buildscript {
 
 	repositories {
 		gradlePluginPortal()
+		mavenCentral()
 	}
 
 	dependencies {
 		classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
+		classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.+'
 	}
 }
 
